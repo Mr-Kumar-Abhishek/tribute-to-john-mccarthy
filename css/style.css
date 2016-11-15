@@ -1,0 +1,60 @@
+.plate {
+  background: -moz-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(192, 192, 192, 1)), color-stop(30%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(128, 128, 128, 1)));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
+  /* ie10+ */
+  background: linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
+  /* w3c */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#c0c0c0', GradientType=1);
+  /* ie6-9 */
+  border-radius: 7px;
+  margin-top: 7%;
+}
+
+.img-holder{
+  border-radius: 5px;
+   background: -moz-radial-gradient(center, ellipse cover, #FFFFFF 0%, #EDEDED 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #FFFFFF), color-stop(100%, #EDEDED)); /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #FFFFFF 0%, #EDEDED 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #FFFFFF 0%, #EDEDED 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #FFFFFF 0%, #EDEDED 100%); /* ie10+ */
+    background: radial-gradient(ellipse at center, #FFFFFF 0%, #EDEDED 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EDEDED',GradientType=1 ); /* ie6-9 */
+}
+.pallate {
+  background: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 5px 5px black;
+  padding-bottom: 1em;
+}
+
+blockquote {
+  padding-top: 1em;
+}
+
+@media (min-width: 768px) { 
+  .pallate{
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+  }
+}
+
+.img-holder img {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+blockquote p {
+  font-size: 20px;
+}
