@@ -57,7 +57,13 @@ ul {
     margin-top: 0;
     margin-bottom: 10px;
 }
+strong {
+	font-weight: 700;
+}
 
+figcaption {
+	margin: 0 0 10px;
+}
 .col {
 	display: block;
 	float: left;
