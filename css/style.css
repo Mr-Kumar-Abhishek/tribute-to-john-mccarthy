@@ -49,14 +49,17 @@ p {
     margin-left: 0px;
 }
 
-.col-small {
+.col {
 	display: block;
-	width: 83.33333333%;
 	float: left;
 	position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.col-small-shrink {
+	width: 83.33333333%;
     margin-left: 8.33333333%;
 }
 
