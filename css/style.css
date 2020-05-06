@@ -27,6 +27,12 @@ h1 {
     line-height: 1.1;
     color: inherit;
 }
+p {
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
 
 .text-center {
 	text-align: center;
