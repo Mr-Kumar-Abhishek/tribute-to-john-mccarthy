@@ -70,14 +70,6 @@ p {
   /* ie6-9 */
   border-radius: 7px;
   margin-top: 7%;
-  margin-left: 8.33333333%;
-  width: 83.33333333%;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  box-sizing: border-box;
-  float: left;
 }
 
 .img-holder{
