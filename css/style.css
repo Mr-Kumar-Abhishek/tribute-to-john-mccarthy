@@ -49,6 +49,11 @@ p {
     margin-left: 0px;
 }
 
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .col {
 	display: block;
 	float: left;
