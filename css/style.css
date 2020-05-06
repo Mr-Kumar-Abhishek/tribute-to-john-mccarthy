@@ -147,10 +147,14 @@ blockquote footer:before {
 }
 
 .img-holder img {
+  display: block;
   margin-top: 5%;
   margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
   width: 100%;
+  max-width: 100%;
 }
 
 blockquote p {
