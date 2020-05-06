@@ -140,12 +140,6 @@ blockquote footer:before {
     content: '\2014 \00A0';
 }
 
-@media (min-width: 768px) { 
-  .pallate{
-      border-bottom-right-radius: 0px;
-      border-top-left-radius: 0px;
-  }
-}
 .img-holder img {
   margin-top: 5%;
   margin-bottom: 2%;
@@ -169,3 +163,22 @@ blockquote p {
 	margin-right: -15px;
 }
 
+@media (min-width: 768px) { 
+  .pallate{
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+  }
+}
+
+@media (min-width: 768px) { 
+	.col-small {
+		float: left;
+		margin-left: 16.66666667%;
+		width: 83.33333333%;
+	}
+	.col-small-smaller {
+		float: left;
+		margin-left: 16.66666667%;
+		width: 66.66666667%;
+	}
+}
