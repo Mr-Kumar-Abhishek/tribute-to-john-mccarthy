@@ -58,6 +58,10 @@ p {
     padding-left: 15px;
 }
 
+.col-small-stretch {
+	width: 100%;
+}
+
 .col-small-shrink {
 	width: 83.33333333%;
     margin-left: 8.33333333%;
