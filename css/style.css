@@ -18,6 +18,10 @@ article, section {
 	display: block;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .plate {
   background: -moz-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
   /* ff3.6+ */
