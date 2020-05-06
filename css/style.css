@@ -5,6 +5,14 @@ html {
     color: -internal-root-color;
 }
 
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
 .plate {
   background: -moz-linear-gradient(45deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(128, 128, 128, 1) 100%);
   /* ff3.6+ */
