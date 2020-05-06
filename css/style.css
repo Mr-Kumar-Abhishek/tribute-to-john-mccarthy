@@ -1,3 +1,7 @@
+* { 
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 10px;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -32,6 +36,16 @@ p {
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
+}
+
+.col-small {
+	display: block;
+	width: 83.33333333%;
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .text-center {
