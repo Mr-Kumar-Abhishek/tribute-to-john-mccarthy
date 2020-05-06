@@ -145,11 +145,7 @@ blockquote footer:before {
       border-bottom-right-radius: 0px;
       border-top-left-radius: 0px;
   }
-}display: block;
-    font-size: 80%;
-    line-height: 1.42857143;
-    color: #777;
-
+}
 .img-holder img {
   margin-top: 5%;
   margin-bottom: 2%;
