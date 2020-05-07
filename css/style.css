@@ -163,7 +163,7 @@ blockquote footer:before {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  padding: 30px;
+  padding: 15px;
   width: 100%;
   max-width: 100%;
 }
@@ -200,7 +200,7 @@ blockquote p {
 		width: 66.66666667%;
 	}
 	.img-holder img {
-		padding: 15px;
+		padding: 30px;
 	}
 
 	
