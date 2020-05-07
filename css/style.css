@@ -124,6 +124,7 @@ figcaption {
   border-top-left-radius: 15px;
   box-shadow: 10px 5px 5px black;
   padding-bottom: 1em;
+  margin-bottom: 20px;
 }
 
 blockquote {
