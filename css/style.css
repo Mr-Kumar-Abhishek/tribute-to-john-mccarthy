@@ -43,7 +43,8 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: bolder;
 }
 
 p {
@@ -167,7 +168,7 @@ blockquote footer:before {
 }
 
 blockquote p {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .container {
