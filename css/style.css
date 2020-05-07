@@ -125,6 +125,7 @@ figcaption {
   box-shadow: 10px 5px 5px black;
   padding-bottom: 1em;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 blockquote {
