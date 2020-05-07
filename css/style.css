@@ -57,6 +57,11 @@ ul {
     margin-top: 0;
     margin-bottom: 10px;
 }
+
+ul li {
+	list-style: none;
+}
+
 strong {
 	font-weight: 700;
 }
